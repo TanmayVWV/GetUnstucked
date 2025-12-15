@@ -1,0 +1,20 @@
+name: Feedback / UX
+description: Share what felt good or bad
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: textarea
+    attributes:
+      label: What were you trying to do?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What felt confusing or annoying?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What did you expect instead?
